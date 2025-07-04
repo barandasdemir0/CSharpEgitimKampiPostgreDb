@@ -90,6 +90,56 @@ namespace CSharpEgitimKampiPostgreDb
             connection.Close();
             GetAllCustomers(); // güncelleme işlemi sonrası tüm müşterileri listelemek için GetAllCustomers metodunu çağırıyoruz
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void btn_id_getir_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtsehir_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtsoyad_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtad_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtID_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

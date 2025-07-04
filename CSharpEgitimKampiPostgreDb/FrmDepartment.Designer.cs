@@ -1,6 +1,6 @@
 ﻿namespace CSharpEgitimKampiPostgreDb
 {
-    partial class Form1
+    partial class FrmDepartment
     {
         /// <summary>
         /// Required designer variable.
@@ -48,153 +48,139 @@
             // btn_id_getir
             // 
             this.btn_id_getir.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btn_id_getir.Location = new System.Drawing.Point(12, 175);
+            this.btn_id_getir.Location = new System.Drawing.Point(10, 188);
             this.btn_id_getir.Name = "btn_id_getir";
             this.btn_id_getir.Size = new System.Drawing.Size(125, 88);
-            this.btn_id_getir.TabIndex = 35;
+            this.btn_id_getir.TabIndex = 49;
             this.btn_id_getir.Text = "İDye Göre Getir";
             this.btn_id_getir.UseVisualStyleBackColor = true;
-            this.btn_id_getir.Click += new System.EventHandler(this.btn_id_getir_Click);
             // 
             // dataGridView1
             // 
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(451, 12);
+            this.dataGridView1.Location = new System.Drawing.Point(449, 25);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(546, 251);
-            this.dataGridView1.TabIndex = 34;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            this.dataGridView1.TabIndex = 48;
             // 
             // btnUpdate
             // 
             this.btnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnUpdate.Location = new System.Drawing.Point(290, 222);
+            this.btnUpdate.Location = new System.Drawing.Point(288, 235);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(142, 41);
-            this.btnUpdate.TabIndex = 33;
+            this.btnUpdate.TabIndex = 47;
             this.btnUpdate.Text = "GÜNCELLE";
             this.btnUpdate.UseVisualStyleBackColor = true;
-            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnadd
             // 
             this.btnadd.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnadd.Location = new System.Drawing.Point(290, 175);
+            this.btnadd.Location = new System.Drawing.Point(288, 188);
             this.btnadd.Name = "btnadd";
             this.btnadd.Size = new System.Drawing.Size(142, 41);
-            this.btnadd.TabIndex = 32;
+            this.btnadd.TabIndex = 46;
             this.btnadd.Text = "EKLE";
             this.btnadd.UseVisualStyleBackColor = true;
-            this.btnadd.Click += new System.EventHandler(this.btnadd_Click);
             // 
             // btnDelete
             // 
             this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnDelete.Location = new System.Drawing.Point(142, 222);
+            this.btnDelete.Location = new System.Drawing.Point(140, 235);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(142, 41);
-            this.btnDelete.TabIndex = 31;
+            this.btnDelete.TabIndex = 45;
             this.btnDelete.Text = "SİL";
             this.btnDelete.UseVisualStyleBackColor = true;
-            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // txtsehir
             // 
             this.txtsehir.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtsehir.Location = new System.Drawing.Point(236, 125);
+            this.txtsehir.Location = new System.Drawing.Point(234, 138);
             this.txtsehir.Name = "txtsehir";
             this.txtsehir.Size = new System.Drawing.Size(196, 31);
-            this.txtsehir.TabIndex = 26;
-            this.txtsehir.TextChanged += new System.EventHandler(this.txtsehir_TextChanged);
+            this.txtsehir.TabIndex = 44;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label3.Location = new System.Drawing.Point(44, 131);
+            this.label3.Location = new System.Drawing.Point(42, 144);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(186, 25);
-            this.label3.TabIndex = 25;
+            this.label3.TabIndex = 43;
             this.label3.Text = "Müşteri ŞEHİR : ";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // txtsoyad
             // 
             this.txtsoyad.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtsoyad.Location = new System.Drawing.Point(236, 88);
+            this.txtsoyad.Location = new System.Drawing.Point(234, 101);
             this.txtsoyad.Name = "txtsoyad";
             this.txtsoyad.Size = new System.Drawing.Size(196, 31);
-            this.txtsoyad.TabIndex = 24;
-            this.txtsoyad.TextChanged += new System.EventHandler(this.txtsoyad_TextChanged);
+            this.txtsoyad.TabIndex = 42;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.Location = new System.Drawing.Point(33, 94);
+            this.label4.Location = new System.Drawing.Point(31, 107);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(197, 25);
-            this.label4.TabIndex = 23;
+            this.label4.TabIndex = 41;
             this.label4.Text = "Müşteri SOYAD : ";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // txtad
             // 
             this.txtad.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtad.Location = new System.Drawing.Point(236, 50);
+            this.txtad.Location = new System.Drawing.Point(234, 63);
             this.txtad.Name = "txtad";
             this.txtad.Size = new System.Drawing.Size(196, 31);
-            this.txtad.TabIndex = 22;
-            this.txtad.TextChanged += new System.EventHandler(this.txtad_TextChanged);
+            this.txtad.TabIndex = 40;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.Location = new System.Drawing.Point(81, 56);
+            this.label2.Location = new System.Drawing.Point(79, 69);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(149, 25);
-            this.label2.TabIndex = 21;
+            this.label2.TabIndex = 39;
             this.label2.Text = "Müşteri AD : ";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // btnlist
             // 
             this.btnlist.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnlist.Location = new System.Drawing.Point(142, 175);
+            this.btnlist.Location = new System.Drawing.Point(140, 188);
             this.btnlist.Name = "btnlist";
             this.btnlist.Size = new System.Drawing.Size(142, 41);
-            this.btnlist.TabIndex = 20;
+            this.btnlist.TabIndex = 38;
             this.btnlist.Text = "LİSTELE";
             this.btnlist.UseVisualStyleBackColor = true;
-            this.btnlist.Click += new System.EventHandler(this.btnlist_Click);
             // 
             // txtID
             // 
             this.txtID.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtID.Location = new System.Drawing.Point(236, 12);
+            this.txtID.Location = new System.Drawing.Point(234, 25);
             this.txtID.Name = "txtID";
             this.txtID.Size = new System.Drawing.Size(196, 31);
-            this.txtID.TabIndex = 19;
-            this.txtID.TextChanged += new System.EventHandler(this.txtID_TextChanged);
+            this.txtID.TabIndex = 37;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(90, 18);
+            this.label1.Location = new System.Drawing.Point(88, 31);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(140, 25);
-            this.label1.TabIndex = 18;
+            this.label1.TabIndex = 36;
             this.label1.Text = "Müşteri ID : ";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // Form1
+            // FrmDepartment
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1031, 277);
+            this.ClientSize = new System.Drawing.Size(1009, 302);
             this.Controls.Add(this.btn_id_getir);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.btnUpdate);
@@ -209,8 +195,8 @@
             this.Controls.Add(this.btnlist);
             this.Controls.Add(this.txtID);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "FrmDepartment";
+            this.Text = "FrmDepartment";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -235,4 +221,3 @@
         private System.Windows.Forms.Label label1;
     }
 }
-
